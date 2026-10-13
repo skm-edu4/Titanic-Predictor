@@ -1,0 +1,39 @@
+# Personal / local environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated data & outputs (regenerate by running scripts 01-07)
+train.csv
+train_cleaned.csv
+test.csv
+my_predictions.csv
+# NOTE: plots/ is deliberately TRACKED — the PNGs render in the README
+
+# Personal notes — local only
+DECISIONS.md
+DECISIONS*.md
+decisions*.md
+INTERVIEW*.md
+interview*.md
+VIVA*.md
+viva*.md
+*DEFENSE*
+*DEFENCE*
+
+# Jupyter
+.ipynb_checkpoints/
